@@ -1,0 +1,44 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.App {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile {
+  /* border: 1px solid black; */
+
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tile .timer {
+  background-color: #8dd996;
+  font-size: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tile .progress-bar__container {
+  overflow: hidden;
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.tile .progress-bar {
+  height: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #ff7979;
+}
